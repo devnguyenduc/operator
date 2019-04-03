@@ -47,10 +47,10 @@
 		margin-left:75px;
 	}
 	.text-view{
-		width: 330px;
+		width: 320px;
 	}
 	.list-view{
-		width: 360px;
+		width: 320px;
 	}
 }
 
@@ -70,10 +70,10 @@
 		margin-left: 150px;
 	}
 	.text-view{
-		width: 540px
+		width: 600px
 	}
 	.list-view{
-		width: 360px;
+		width: 320px;
 	}
 }
 
@@ -95,10 +95,10 @@
 	}
 	
 	.text-view{
-		width: 840px
+		width: 600px
 	}
 	.list-view{
-		width: 360px;
+		width: 320px;
 	}
 }
 

@@ -27,7 +27,7 @@
     <% include navbar %>
     <div id="dau_trang"></div>
     <div class="list-group float-left m-3 mt-4 list-view">
-        <button type="button" class="list-group-item list-group-item-action active d-none" data-toggle="modal"
+        <button type="button" class="list-group-item list-group-item-action active" data-toggle="modal"
             data-target="#modelId" id="btn_create_post">
             Tạo bài viết mới
         </button>
@@ -61,17 +61,17 @@
                 </div>
             </div>
         </div>
-        <button type="button" class="list-group-item list-group-item-action active" data-toggle="collapse"
+        <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse"
             data-target="#list_view" id="btn_show_list">
             Xem danh sách File
         </button>
         <div class="collapse list-view" id="list_view"></div>
 
-        <button type="button" class="list-group-item list-group-item-action" id="btn_show_post" data-toggle="collapse"
-            data-target="#post_view">
+        <button type="button" class="list-group-item list-group-item-action" id="btn_show_post" data-toggle="collapse" data-target="#post_view">
             Xem bài viết
         </button>
     </div>
+
 
     <div class="float-left ml-3 text-view">
         <div class="text-white">.</div>
@@ -86,9 +86,10 @@
             <a class="nav-link btn btn-primary" href="#dau_trang">Quay lại đầu trang</a>
         </li>
     </ul>
+
     <!-- Optional JavaScript -->
     <script src="/javascripts/mde.js"></script>
-    <script src="/javascripts/home_page_get_post.js"></script>
+    <script src="/javascripts/edit_get_post_page.js"></script>
     <script>
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover({ html: true });

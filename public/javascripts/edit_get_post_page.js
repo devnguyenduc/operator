@@ -23,7 +23,6 @@ function show_list() {
             <thead>
                 <tr>
                     <th>File name</th>
-                    <th>Xem</th>
                     <th>Sửa</th>
                 </tr>
             </thead>
@@ -34,10 +33,7 @@ function show_list() {
     inner = open;
     list.forEach(element => {
         inner += `<tr>
-            <td scope="row">${element.file_name}</a></td>
-            <td>
-                <button class="btn btn-primary" value="${element.file_name}" onclick="transport(this.value)">Xem</button>
-            </td>
+            <td>${element.file_name}</td>
             <td>
                 <button class="btn btn-secondary" value="${element.file_name}" onclick="fixed(this.value)">
                     Sửa

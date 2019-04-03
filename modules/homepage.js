@@ -24,7 +24,7 @@ async function validPassword(accountLogin){
         return false;
     }
 }
-
+let hello = false;
 routes.post("/",(req,res)=>{
     var user = {};
     user.email = req.body.sign_in_id;
@@ -32,19 +32,27 @@ routes.post("/",(req,res)=>{
     var result = validPassword(user);
     result.then(value=>{
         if(value == true){
-            res.render("homepage");
+            hello = true;
+            
         }else{
-            res.send("Đăng nhập thất bại");
+            hello = false;
         }
     })
+    res.render("homepage");
 });
 
 routes.get("/",(req,res)=>{
-    res.end("Bạn cần phải đăng nhập")
+    res.render("homepage");
+})
+
+routes.get("/admin",(req,res)=>{
+    if(hello == true){
+        res.render("editpage.ejs")
+    }else{
+        res.send("Bạn cần phải đăng nhập")
+    }
+
 })
 
 module.exports = routes;
 
-// routes.get("/",(req,res)=>{
-//     res.render('homepage');
-// })
