@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- SimpleMDE CSS, FontAwesome and SimpleMDE JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <!-- KaTex -->
+    <script type="text/javascript" src="https://codeassign.github.io/markjax/dist/markjax.min.js"></script>
+</head>
+
+<body>
+    <div class="ml-5" style="width: 480px">
+        <textarea id="test"></textarea>
+    </div>
+    <button class="btn btn-primary" id="btn">click</button>
+    <div class="ml-5" style="width: 480px">
+        <textarea id="test2"></textarea>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- Add file get Simple Markdown Editor -->
+    <script src="public/javascripts/mde.js"></script>
+    <!-- Processing Markdown Editor -->
+    <script>
+        btn.onclick = () => {
+            var x = simplemde.value();
+            simplemde2.value(x);
+        }
+    </script>
+
+    <!-- add Jquery , Popper and Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

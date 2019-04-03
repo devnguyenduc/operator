@@ -1,0 +1,50 @@
+<div class="rounded bg-white sign-up-form float-left">
+    <h3 style="text-align:center">Thao tác cùng toán tử!</h3>
+    <% include signin %>
+    <form action="/sign-up" method="post">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Họ Tên</span>
+            </div>
+            <input type="text" class="form-control" name="sign_up_family_name" placeholder="Họ">
+            <input type="text" class="form-control" name="sign_up_name" placeholder="Tên">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" name="sign_up_email" placeholder="email">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">+84</span>
+            </div>
+            <input type="number" class="form-control" name="sign_up_nbphone" placeholder="số điện thoại">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">**</span>
+            </div>
+            <input type="password" class="form-control" name="sign_up_password" placeholder="mật khẩu">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">**</span>
+            </div>
+            <input type="password" class="form-control" name="sign_up_repassword" placeholder="nhập lại mật khẩu">
+        </div>
+
+        <p>Bạn đã đọc <a href="/dieu-khoan">điều khoản bảo mật</a> xin hãy bấm nút
+            <button class="btn btn-success">Đăng ký</button> để đồng ý và đăng ký tài khoản tham gia vào cộng đồng của
+            chúng tôi</p>
+    </form>
+</div>
+
+<script src="javascripts/signup.js"></script>
+<script>
+
+</script>

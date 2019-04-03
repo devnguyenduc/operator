@@ -1,0 +1,5 @@
+{
+	"file_name": "GraviationFieldTheory.md",
+	"data_post": "# Lý thuyết trường hấp dẫn\r\n## Tensor Riemann được xây dựng như thế nào? ( Cở sở toán học của trường hấp dẫn ).\r\n### Dịch chuyển song song 1 vector theo 1 phương bất kì, sau đó dịch chuyển tiếp vector đó theo 1 phương khác. Dịch chuyển song song vector đó theo hướng ngược lại 2 lần với phương như 2 lần dịch chuyển ban đầu, ta sẽ có được Tập các giá trị Christoffel mô tả tensor Riemann.\r\n",
+	"id": "GraviationFieldTheory.md"
+}

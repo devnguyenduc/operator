@@ -1,0 +1,4 @@
+{
+	"create_file_name": "hello.js",
+	"create_post": "\t```javascript\r\nconsole.log(\"hello world\")\r\n```"
+}
